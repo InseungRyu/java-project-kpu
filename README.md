@@ -7,5 +7,5 @@
 조원 국효상, 맹성제, 류인승, 박 빈
 
 ## 역할 분담
-Frontend : 김재환
+Frontend : 김재환  
 Backend : 맹성제
