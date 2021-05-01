@@ -8,4 +8,5 @@
 
 ## 역할 분담
 Frontend : 김재환  
-Backend : 맹성제
+Backend : 맹성제  
+Present : 김재환
