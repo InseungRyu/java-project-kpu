@@ -29,3 +29,12 @@
 5. 나의 Todo 작성/수정 페이지  
   - Todo Edit 팝업 출력이 되고 생성/수정 할 수 있다.
 
+## HTML/CSS/JS 코드 컨벤션
+- HTML 클래스 이름은 모두 소문자, 구분 기호는 '-'  
+example) class="html-example"  
+  
+- JS 클래스명은 PascalCase  
+example) class Example
+
+- JS 변수명은 camelCase
+example) let exampleVariable
