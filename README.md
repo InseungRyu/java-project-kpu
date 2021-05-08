@@ -36,5 +36,5 @@ example) class="html-example"
 - JS 클래스명은 PascalCase  
 example) class Example
 
-- JS 변수명은 camelCase
+- JS 변수명은 camelCase  
 example) let exampleVariable
