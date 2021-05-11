@@ -38,3 +38,6 @@ example) class Example
 
 - JS 변수명은 camelCase  
 example) let exampleVariable
+
+## Special Thanks
+- https://lucidmaj7.tistory.com/251
