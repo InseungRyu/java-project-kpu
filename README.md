@@ -38,3 +38,10 @@ example) class Example
 
 - JS 변수명은 camelCase  
 example) let exampleVariable
+
+## 브랜치 네이밍 컨벤션  
+- Format : <branch_type>_<branch_name>   
+example) feature_index-login
+
+## Special Thanks
+- https://lucidmaj7.tistory.com/251
