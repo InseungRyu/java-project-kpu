@@ -16,24 +16,27 @@ a {
 }
 
 .header-nav .header-nav-logo {
-    left: 14px;
-    top: 14px;
+    left: 30px;
+    top: 8px;
     position: absolute;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Alata', sans-serif;
-    bottom: 10px;
+    text-shadow: 2px 2px 2px rgb(45, 126, 254);
+    /* text-shadow: 2px 2px 2px black; */
+    /* bottom: 10px; */
 }
 
 .header-nav .header-nav-signin {
     position: absolute;
     right: 35px;
     top: 10px;
-    background: rgb(105,163,255);
+    /* background: rgb(105,163,255); */
     background: linear-gradient(162deg, rgba(105,163,255,1) 0%, rgba(43,125,254,1) 50%, rgba(43,125,254,1) 100%);
     border-radius: 10px;
     height: 22px;
     width: 120px;
-    font-size: 17.5px;
+    font-size: 13px;
+    line-height: 18px;
     text-align: center;
     font-family: 'Alata', sans-serif;
 }
@@ -49,12 +52,13 @@ a {
     position: absolute;
     right: 35px;
     top: 10px;
-    background: rgb(105,163,255);
+    /* background: rgb(43,125,254); */
     background: linear-gradient(162deg, rgba(105,163,255,1) 0%, rgba(43,125,254,1) 50%, rgba(43,125,254,1) 100%);
     border-radius: 10px;
     height: 22px;
     width: 120px;
-    font-size: 17.5px;
+    font-size: 13px;
+    line-height: 18px;
     text-align: center;
     font-family: 'Alata', sans-serif;
     margin-right: 140px;
