@@ -1,0 +1,135 @@
+/* Common */
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header-nav {
+    position: relative;
+    background-color: #232f46;
+    height: 40px;
+    width: 100%;
+}
+
+.header-nav a {
+    color: #fff;
+}
+
+.header-nav .header-nav-logo {
+    left: 30px;
+    top: 8px;
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Alata', sans-serif;
+    text-shadow: 2px 2px 2px rgb(45, 126, 254);
+    /* text-shadow: 2px 2px 2px black; */
+    /* bottom: 10px; */
+}
+
+.header-nav .header-nav-signin {
+    position: absolute;
+    right: 35px;
+    top: 10px;
+    /* background: rgb(105,163,255); */
+    background: linear-gradient(162deg, rgba(105,163,255,1) 0%, rgba(43,125,254,1) 50%, rgba(43,125,254,1) 100%);
+    border-radius: 10px;
+    height: 22px;
+    width: 120px;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+}
+
+.header-nav .header-nav-signin a {
+    position: absolute;
+    top: 3px;
+    width: 120px;
+    right: 0px;
+}
+
+.header-nav .header-nav-viewin {
+    position: absolute;
+    right: 35px;
+    top: 10px;
+    /* background: rgb(43,125,254); */
+    background: linear-gradient(162deg, rgba(105,163,255,1) 0%, rgba(43,125,254,1) 50%, rgba(43,125,254,1) 100%);
+    border-radius: 10px;
+    height: 22px;
+    width: 120px;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    margin-right: 140px;
+}
+
+.header-nav .header-nav-viewin a {
+    position: absolute;
+    top: 3px;
+    width: 120px;
+    right: 0px;
+}
+
+.header-nav .header-alert {
+    background-color: #000;
+    top: 40px;
+    position: relative;
+    bottom: 10px;
+    height: 40px;
+    z-index: 1;
+}
+
+.header-nav .header-alert a {
+    position: relative;
+    top: 14px;
+    left: 14px;
+    font-size: 14px;
+    font-family: 'Alata', sans-serif;
+}
+
+/* main */
+.main {
+    top: 40px;
+    position: relative;
+    width: 100%;
+    height: 1130px;
+    background: rgb(234, 234, 234);
+}
+
+.main .tab {
+    overflow: hidden;
+    border-right: none;
+    background-color: rgb(234, 234, 234);
+}
+
+.main .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    border-right: 1px solid #ccc;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.main .tab button:hover {
+    background-color: #2D7EFE;
+}
+  
+  /* Create an active/current tablink class */
+.main .tab button.active {
+    background-color: #2D7EFE;
+}
+  
+  /* Style the tab content */
+.main.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #2D7EFE;
+    border-top: none;
+}

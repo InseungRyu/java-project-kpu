@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+
+  <link rel="shortcut icon" href="favicon.png" type="image/png" />
+  <link rel="stylesheet" href="../css/myview.css" />
+
+  <title>OFFICE.GG</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-nav">
+        <div class="header-nav-logo">
+            <a href="../index.html">OFFICE.GG</a>
+        </div>
+        <div class="header-nav-signin">
+            <a href="../signin/signin.html">로그인</a>
+        </div>
+        <div class="header-nav-viewin">
+            <a href="../viewin/myview.html">나의 뷰</a>
+        </div>
+        <div class="header-alert">
+            <a href="../index.html">아직도 매번 직접 물어보니? 이제 사내 인력 자원 스케쥴 검색은 [OFFICE.GG]</a>
+        </div>
+    </header>
+
+    <!-- Main View -->
+    <section class="main">
+        <div class="tab">
+            <button class="tabItems" onclick="openCity(event, 'ToDo')" id="defaultOpen">Todo</button>
+            <button class="tabItems" onclick="openCity(event, 'MyInfo')">MyInfo</button>
+            <button class="tabItems" onclick="openCity(event, 'Test1')">Test1</button>
+            <button class="tabItems" onclick="openCity(event, 'Test2')">Test2</button>
+        </div>
+
+        <div id="ToDo" class="tabcontent">
+            asdasd
+        </div>
+          
+        <div id="MyInfo" class="tabcontent">
+            asdasdasdfasdf
+        </div>
+
+        <div id="Test1" class="tabcontent">
+            Test1
+        </div>
+
+        <div id="Test2" class="tabcontent">
+            Test2
+        </div>
+    </section>
+
+    <!-- 임시 / .js 이동 예정 -->
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tabItems");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+</html>
