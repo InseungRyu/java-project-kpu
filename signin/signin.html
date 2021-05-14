@@ -1,29 +1,38 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
     <link rel="shortcut icon" href="../favicon.png" type="image/png" />
-    
     <title>OFFICE.GG</title>
+    <link rel="stylesheet" href="../css/siginin.css">
+    <script src="https://kit.fontawesome.com/51db22a717.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
 </head>
 <body>
-  <section class="signin">
-    <div class="signin-left-container">
-      <h1>Hi There!</h1>
-      <h1>It's the Salendar.</h1>
-      <p>Drop the You're Plan!</p>
+    <div class="page-container">
+        <div class="login-form-container shadow">
+            <div class="login-form-right-side">
+                <h1>Welcome To OFFICE.GG!</h1>
+                <p>OFFICE.GG를 이용하여 사내 인력 자원을 쉽게 검색하세요! <br/>더 이상 쓸데없는 시간을 낭비하지 않게해 줍니다!<br/>체계적인 프로젝트 관리를 향한 첫 걸음, OFFICE.GG!</p>
+            </div>
+            <div class="login-form-left-side">
+                <div class="login-input-container">
+                    <div class="login-input-wrap input-id">
+                        <i class="far fa-envelope"></i>
+                        <input placeholder="아이디를 입력해 주세요." type="text">
+                    </div>
+                    <div class="login-input-wrap input-password">
+                        <i class="fas fa-key"></i>
+                        <input placeholder="비밀번호를 입력해 주세요."  type="password">
+                    </div>
+                </div>
+                <div class="login-btn-wrap">
+                    <button class="login-btn">로그인</button>
+                    <a href="../index.html" >홈으로 이동</a>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="signin-right-container">
-      <input type="text" placeholder="Input the ID" />
-      <input type="password" placeholder="Input the Password" />
-      <input type="submit" placeholder="Login" />
-      <a href="javascript:void(0)">Forgot The Password?</a>
-    </div>
-  </section> 
 </body>
 </html>

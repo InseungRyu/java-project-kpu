@@ -11,6 +11,7 @@
 
   <link rel="preconnect" href="https://fonts.gstatic.com"> 
   <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gugi&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
 
   <title>OFFICE.GG</title>
 </head>
@@ -21,23 +22,27 @@
         <a href="./index.html">OFFICE.GG</a>
       </div>
       <div class="header-nav-signin">
-        <a href="./signin/signin.html">Sign In</a>
+        <a href="./signin/signin.html">로그인</a>
+      </div>
+      <div class="header-nav-viewin">
+        <a href="javascript:void(0)">나의 뷰</a>
+      </div>
+      <div class="header-alert">
+        <a href="./index.html">아직도 매번 직접 물어보니? 이제 사내 인력 자원 스케쥴 검색은 [OFFICE.GG]</a>
       </div>
   </header>
 
   <!-- Main View -->
   <section class="main">
     <div class="main-logo">
-      <span>OFFICE.GG</span>
+      <a href="./index.html">OFFICE.GG</a>
     </div>
     <div class="main-search">
-      <div class="main-search-bar">
-        <input type="text" placeholder="사원명을 입력해 주세요." />
-        <div class="main-search-bar-btn"> 
-          <input type="submit" placeholder="검색" />
-        </div>
-      </div>
-    </div>
+      <form action="javascript:void(0)" class="main-search-bar">
+        <input type="text" placeholder="   사원명을 입력해 주세요." name = "name" />
+        <input type="submit" value="검 색" />
+      </form>
+     </div>
   </section>
 </body>
 </html>
