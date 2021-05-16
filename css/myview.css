@@ -99,6 +99,8 @@ a {
 
 .main .tab {
     overflow: hidden;
+    position: relative;
+    left: 10px;
     border-right: none;
     background-color: rgb(234, 234, 234);
 }

@@ -30,6 +30,7 @@
 
     <!-- Main View -->
     <section class="main">
+        <div style="height: 10px;"></div>
         <div class="tab">
             <button class="tabItems" onclick="openCity(event, 'ToDo')" id="defaultOpen">Todo</button>
             <button class="tabItems" onclick="openCity(event, 'MyInfo')">MyInfo</button>
@@ -57,17 +58,17 @@
     <!-- 임시 / .js 이동 예정 -->
     <script>
         function openCity(evt, cityName) {
-          var i, tabcontent, tablinks;
-          tabcontent = document.getElementsByClassName("tabcontent");
-          for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-          }
-          tablinks = document.getElementsByClassName("tabItems");
-          for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-          }
-          document.getElementById(cityName).style.display = "block";
-          evt.currentTarget.className += " active";
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tabItems");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
         }
         
         document.getElementById("defaultOpen").click();
